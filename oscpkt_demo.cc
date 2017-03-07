@@ -1,5 +1,10 @@
 /*
   This is a lame ping-ping demo for oscpkt
+  
+  build with:
+  
+  g++ -O3 -Wall -W -I. oscpkt/oscpkt_demo.cc -o oscpkt_demo
+  
 */
 
 #define OSCPKT_OSTREAM_OUTPUT
