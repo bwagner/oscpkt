@@ -40,6 +40,14 @@
 # if defined(_MSC_VER)
 #  pragma comment(lib, "ws2_32.lib")
 # endif
+#elif defined(__APPLE__) /* Is recognized by Clang */
+# include <sys/socket.h>
+# include <netinet/in.h>
+# include <fcntl.h>
+# include <arpa/inet.h>
+# include <netdb.h>
+# include <unistd.h>
+# include <sys/time.h>
 #else
 # include <sys/socket.h>
 # include <netinet/in.h>
