@@ -3,7 +3,7 @@
 
    build with: 
 
-   g++ -O3 -Wall -W -I. oscpkt/oscpkt_test.cc 
+   g++ -O3 -Wall -W -I. oscpkt/oscpkt_test.cc -o oscpkt_test
    cl.exe /Zi /EHsc /I. oscpkt/oscpkt_test.cc 
  */
 
